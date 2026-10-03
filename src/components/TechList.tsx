@@ -1,5 +1,6 @@
-import { TechListProps } from '../types';
 import type { TechListProps } from '../types';
+import { TechCard } from './TechCard';
+
 export const TechList = ({ technologies, stack, loading, handleAddToStack }: TechListProps) => {
   if (loading) {
     return (
