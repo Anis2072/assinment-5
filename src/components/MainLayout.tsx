@@ -1,4 +1,4 @@
-import { TechListProps, SidebarProps } from '../types';
+import type { TechListProps, SidebarProps } from '../types';
 import { TechList } from './TechList';
 import { Sidebar } from './Sidebar';
 

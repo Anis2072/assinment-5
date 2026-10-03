@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import type { Technology } from './types'; 
 
-import { Technology } from './types';
 import { Navbar } from './components/Navbar';
 import { Hero } from './components/Hero';
 import { MainLayout } from './components/MainLayout';

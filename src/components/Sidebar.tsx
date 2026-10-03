@@ -1,5 +1,5 @@
 import { FaTrash, FaTimes } from 'react-icons/fa';
-import { SidebarProps } from '../types';
+import type { SidebarProps } from '../types';
 
 export const Sidebar = ({ stack, handleRemoveFromStack, handleRemoveAll }: SidebarProps) => {
   return (

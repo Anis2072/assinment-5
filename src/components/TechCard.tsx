@@ -1,5 +1,5 @@
 import { FaStar } from 'react-icons/fa';
-import { TechCardProps } from '../types';
+import type { TechCardProps } from '../types';
 
 export const TechCard = ({ tech, stack, handleAddToStack }: TechCardProps) => {
   const isAdded = stack.some((item) => item.id === tech.id);
